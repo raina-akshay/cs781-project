@@ -1,0 +1,14 @@
+{
+  "strategy": "sampling",
+  "temperature": 0.85,
+  "top_p": 0.95,
+  "seed": 42,
+  "max_new_tokens": 2560,
+  "target_words": 128,
+  "max_seconds": null,
+  "repetition_penalty": 1.2,
+  "repetition_penalty_scope": "generated_suffix",
+  "no_repeat_ngram_size": 4,
+  "no_repeat_ngram_scope": "generated_suffix",
+  "utf8_validation": "bytelevel_replace_prefix_v1"
+}

@@ -1,0 +1,54 @@
+{
+  "adaptation": {
+    "alpha": 16,
+    "method": "lorma_plus",
+    "rank": 16
+  },
+  "data_manifest": "data/prepared/manifest.json",
+  "data_policy": {
+    "development": "selection_and_evaluation_only",
+    "external_weights_or_data": false,
+    "test": "unlabelled_inference_only_ignoring_released_target_fields",
+    "training": "official_CJPE_train_unique_case_IDs_only"
+  },
+  "export_teacher_logits": true,
+  "foundation_family": "s5_hybrid",
+  "foundation_manifest": "../../assets/foundation/manifest.json",
+  "head": {
+    "dropout": 0.1,
+    "hidden_size": 256
+  },
+  "input": {
+    "chunk_length": 2048,
+    "coverage": "full"
+  },
+  "loss": {
+    "class_weight_power": 0.0
+  },
+  "name": "lorma-full-case-c2048-m6",
+  "official_evaluator": "scripts/evaluate.py",
+  "output_dir": "artifacts/run",
+  "phase": 4,
+  "scratch_dir": "artifacts/scratch",
+  "solution": 1,
+  "training": {
+    "adapter_lr": 0.0001,
+    "block_gradient_checkpointing": false,
+    "encoder_micro_chunks": 6,
+    "eval_batch_cases": 1,
+    "global_batch_cases": 12,
+    "gradient_checkpointing": true,
+    "gradient_clip": 1.0,
+    "head_lr": 0.0003,
+    "log_every_steps": 10,
+    "max_epochs": 20,
+    "min_epochs": 5,
+    "minimum_lr_ratio": 0.1,
+    "patience": 4,
+    "save_every_steps": 100,
+    "seed": 42,
+    "warmup_fraction": 0.05,
+    "weight_decay": 0.01,
+    "world_size": 3
+  }
+}

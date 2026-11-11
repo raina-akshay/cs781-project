@@ -1,0 +1,32 @@
+{
+  "format": "cs781-phase7-partial-tuning-v1",
+  "epoch": 8,
+  "dense_weight": 1.0,
+  "model_file": "model.pt",
+  "sha256": "9a860ea8e06b0b4c12e29eafefa1286d1341d3a050cd234fea99f80e97be3ee5",
+  "bytes": 239392280,
+  "trainable_tensors": 51,
+  "trainable_parameters": 59844128,
+  "original_best_checkpoint_sha256": "5fa29a2a8e8768a56f9bcc8dcdad1a307cb51c7ef3d8d746cd2c1a0d421890b9",
+  "original_foundation_checkpoint_sha256": "b2673ec82b422ba4573d1d30edb125ad2968e0a259c176b5fc8415b1f0797360",
+  "tokenizer_sha256": "25cb054b95fb14d53f12f265c4e09c897ba6dfc5d84b8298ab93004184648b1d",
+  "model_config": {
+    "architecture": "gated_delta_hybrid",
+    "vocab_size": 32768,
+    "context_length": 2560,
+    "n_layers": 12,
+    "d_model": 1024,
+    "n_heads": 16,
+    "d_ff": 2816,
+    "dropout": 0.1,
+    "layer_norm_eps": 1e-05,
+    "gdn_num_heads": 8,
+    "gdn_head_dim": 128,
+    "gdn_value_dim": 256,
+    "conv_size": 4,
+    "rope_theta": 10000.0,
+    "gdn_backend": "fla"
+  },
+  "development_micro_f1_at_7": 0.38465814341300725,
+  "portal_micro_f1_at_7": 0.3608978145
+}

@@ -1,0 +1,43 @@
+{
+  "repository": "Exploration-Lab/CS-781-Capstone",
+  "repository_type": "dataset",
+  "revision": "93b0059be756c6c461f3a225de25aabda7d5f84a",
+  "files": [
+    {
+      "repository_path": "Phase_7_PCR/Dev/dev.json",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/93b0059be756c6c461f3a225de25aabda7d5f84a/Phase_7_PCR/Dev/dev.json",
+      "bytes": 5865663,
+      "sha256": "7d77e075fcaf756db45b16fd0edc9c371401ac1ea205ce2939c3aff0ed8b4f1b"
+    },
+    {
+      "repository_path": "Phase_7_PCR/Dev/dev_candidates.json",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/93b0059be756c6c461f3a225de25aabda7d5f84a/Phase_7_PCR/Dev/dev_candidates.json",
+      "bytes": 51887741,
+      "sha256": "9681bb0094040f6352e96d17b0870098590bab3dbdd663d7a2f24925589f76a4"
+    },
+    {
+      "repository_path": "Phase_7_PCR/Test/test.json",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/93b0059be756c6c461f3a225de25aabda7d5f84a/Phase_7_PCR/Test/test.json",
+      "bytes": 9341953,
+      "sha256": "fe599dc6ad3b1a08e8c3ebc308f3c1ed7f0aaf6cc8182a9fc536538cfd21cb4b"
+    },
+    {
+      "repository_path": "Phase_7_PCR/Test/test_candidates.json",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/93b0059be756c6c461f3a225de25aabda7d5f84a/Phase_7_PCR/Test/test_candidates.json",
+      "bytes": 71140601,
+      "sha256": "55d54fa02faec824f85b1c9dfca8b22bf26c6a19ecc33560426756be3f4abef8"
+    },
+    {
+      "repository_path": "Phase_7_PCR/Train/train.json",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/93b0059be756c6c461f3a225de25aabda7d5f84a/Phase_7_PCR/Train/train.json",
+      "bytes": 33190045,
+      "sha256": "3cfb215caa19285b846d823bfefc7f005db36f343cf60781868fd95fadf472d1"
+    },
+    {
+      "repository_path": "Phase_7_PCR/Train/train_candidates.json",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/93b0059be756c6c461f3a225de25aabda7d5f84a/Phase_7_PCR/Train/train_candidates.json",
+      "bytes": 159779103,
+      "sha256": "b8570b43c21535c4f7bb00cd923ccf2d0304b0867e99c0abe30c6bd22c1e125c"
+    }
+  ]
+}

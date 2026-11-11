@@ -1,0 +1,19 @@
+# Python 3.11; versions from the environment used for the retained models.
+# CUDA 11.8 PyTorch wheel. CUDA/FLA is required for scored model execution.
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.7.1+cu118
+triton==3.3.1
+numpy==2.2.6
+scipy==1.15.3
+tokenizers==0.22.2
+einops==0.8.1
+safetensors==0.8.0
+transformers==4.57.6
+huggingface-hub==0.36.2
+scikit-learn==1.7.2
+joblib==1.5.3
+bert-score==0.3.13
+rouge-score==0.1.2
+absl-py==2.3.1
+# The package version alone does not identify the FLA kernels used here.
+flash-linear-attention @ git+https://github.com/fla-org/flash-linear-attention.git@3e52d5abb6ad85312846f39c3e946c2e9881a823

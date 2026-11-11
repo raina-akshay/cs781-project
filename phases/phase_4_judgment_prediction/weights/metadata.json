@@ -1,0 +1,9 @@
+{
+  "selected_epoch": 4,
+  "source_checkpoint_sha256": "4089c1851f24bf6908db910b485195d29595239f957a34d3331f2a5f7a237a01",
+  "compact_checkpoint_sha256": "597ec4131f7d3881ddaa3751c27aa62ba1f62fe62981031b45b2c7dfbec65fc5",
+  "compact_bytes": 22629772,
+  "tensor_count": 173,
+  "exact_tensor_parity": true,
+  "optimizer_and_rng_excluded": true
+}

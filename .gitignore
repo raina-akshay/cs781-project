@@ -1,0 +1,36 @@
+# Local Python environments and generated caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Credentials and local editor state
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+
+# Raw datasets, training caches, checkpoints and generated predictions.
+# Selected portable weights under weights/ and assets/ are intentionally kept.
+**/data/*
+!**/data/raw/
+**/data/raw/*
+!**/data/raw/source-manifest.json
+**/artifacts/
+**/outputs/
+**/runs/
+**/checkpoints/
+**/logs/
+**/scratch/
+*.log
+prediction.json
+predictions.json
+submission.zip
+*.tmp
+*.partial

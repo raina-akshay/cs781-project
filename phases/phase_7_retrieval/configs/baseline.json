@@ -1,0 +1,45 @@
+{
+  "foundation_family": "s5_hybrid",
+  "foundation_manifest": "../../assets/foundation/manifest.json",
+  "adaptation": {
+    "method": "partial_layerwise",
+    "last_n_blocks": 4,
+    "train_final_norm": true
+  },
+  "representation": {
+    "chunk_length": 512,
+    "max_chunks": 16
+  },
+  "retrieval": {
+    "pooling": "mean",
+    "temperature": 0.05,
+    "local_weight": 0.5,
+    "rrf_constant": 60,
+    "dense_weights": [
+      1.0,
+      0.75
+    ]
+  },
+  "training": {
+    "seed": 42,
+    "block_gradient_checkpointing": false,
+    "global_query_batch": 12,
+    "microbatch_chunks": 80,
+    "eval_microbatch_chunks": 128,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "max_gradient_norm": 1.0,
+    "max_epochs": 40,
+    "minimum_epochs": 12,
+    "patience": 8,
+    "warmup_epochs": 2,
+    "minimum_lr_ratio": 0.1,
+    "dense_negatives": 2,
+    "lexical_negatives": 1,
+    "random_negatives": 1,
+    "mining_pool_depth": 100,
+    "mining_interval_epochs": 2,
+    "positive_cycle_epochs": 8,
+    "checkpoint_steps": 10
+  }
+}

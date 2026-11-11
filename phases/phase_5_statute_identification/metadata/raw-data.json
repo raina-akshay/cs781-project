@@ -1,0 +1,32 @@
+{
+  "repository": "Exploration-Lab/CS-781-Capstone",
+  "revision": "93b0059be756c6c461f3a225de25aabda7d5f84a",
+  "retrieved_at_utc": "2026-10-27T12:52:52.332580+00:00",
+  "test_targets_used": false,
+  "files": [
+    {
+      "repository_path": "Phase_5_LSI/Test/test.json",
+      "path": "data/raw/Phase_5_LSI/Test/test.json",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/93b0059be756c6c461f3a225de25aabda7d5f84a/Phase_5_LSI/Test/test.json",
+      "bytes": 98061196,
+      "sha256": "c699d50bcc2f3e369955268d6195a80b23322ed91cb1fadc8d58b26ca8e9aa77",
+      "verified": true
+    },
+    {
+      "repository_path": "Phase_5_LSI/Train/dev.json",
+      "path": "data/raw/Phase_5_LSI/Train/dev.json",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/93b0059be756c6c461f3a225de25aabda7d5f84a/Phase_5_LSI/Train/dev.json",
+      "bytes": 79377066,
+      "sha256": "ab2660ac23abf38e902d63ab6871df740dc38e3fd973f441745f42564dadbd15",
+      "verified": true
+    },
+    {
+      "repository_path": "Phase_5_LSI/Train/train.json",
+      "path": "data/raw/Phase_5_LSI/Train/train.json",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/93b0059be756c6c461f3a225de25aabda7d5f84a/Phase_5_LSI/Train/train.json",
+      "bytes": 299396974,
+      "sha256": "f3601a7fce994616daf99fec251ca7936e98675a8fbf8af20a782cd55054c8a7",
+      "verified": true
+    }
+  ]
+}

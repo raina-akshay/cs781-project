@@ -1,0 +1,11 @@
+{
+  "format": "cs781-ner-direct-span-v1",
+  "epoch": 26,
+  "bytes": 21726983,
+  "sha256": "f3c799f7b25a5480484b5b5a41d4896ed53850de0b26a7bef9ae9d6fda1c4c6c",
+  "original_checkpoint_sha256": "cf5ffabcdcb0aaf227bdbceaaf8a36841258a8f7c0c9d3f4793500b58ffa9bca",
+  "trainable_tensors": 171,
+  "buffer_tensors": 0,
+  "full_model_tensor_equality": true,
+  "portal_macro_f1": "0.5307413631"
+}

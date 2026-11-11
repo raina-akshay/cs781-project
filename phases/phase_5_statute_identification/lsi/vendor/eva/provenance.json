@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/huggingface/peft",
+  "tag": "v0.17.1",
+  "revision": "53c25fe4fdd7c6aa4b40db0560815ea570d32303",
+  "license": "Apache-2.0",
+  "modifications": [],
+  "files": [
+    {
+      "file": "incremental_pca.py",
+      "upstream_path": "src/peft/utils/incremental_pca.py",
+      "url": "https://raw.githubusercontent.com/huggingface/peft/53c25fe4fdd7c6aa4b40db0560815ea570d32303/src/peft/utils/incremental_pca.py",
+      "bytes": 14026,
+      "sha256": "0bab8d06a39f6dce1e47f8b61d72e393cb31b2a43f6f1878da9197291b7f5dfb"
+    },
+    {
+      "file": "LICENSE",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/huggingface/peft/53c25fe4fdd7c6aa4b40db0560815ea570d32303/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ]
+}

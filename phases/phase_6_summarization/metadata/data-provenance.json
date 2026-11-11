@@ -1,0 +1,35 @@
+{
+  "at_utc": "2026-10-30T07:47:08.205889+00:00",
+  "repo": "Exploration-Lab/CS-781-Capstone",
+  "revision": "93b0059be756c6c461f3a225de25aabda7d5f84a",
+  "files": [
+    {
+      "release_path": "Phase_6_Summ/Train/train.json",
+      "source_url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/93b0059be756c6c461f3a225de25aabda7d5f84a/Phase_6_Summ/Train/train.json",
+      "local_path": "data/raw/Phase_6_Summ/Train/train.json",
+      "bytes": 210600429,
+      "sha256": "9bce52206eca33e1225ce405825972a64ee8a1fb82030d25f648b4eb2f647e47",
+      "metadata_lfs_sha256": "9bce52206eca33e1225ce405825972a64ee8a1fb82030d25f648b4eb2f647e47",
+      "lfs_sha256_match": true,
+      "metadata_size": 210600429,
+      "metadata_blob_id": "ee70bb692b9fc201e6f50b994f2c4a8f5c87ec8c",
+      "computed_git_blob_sha1": "663eeadecabcd44058889f2e529d9eee9362c64d",
+      "metadata_git_blob_sha1_match": null
+    },
+    {
+      "release_path": "Phase_6_Summ/Test/test.json",
+      "source_url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/93b0059be756c6c461f3a225de25aabda7d5f84a/Phase_6_Summ/Test/test.json",
+      "local_path": "data/raw/Phase_6_Summ/Test/test.json",
+      "bytes": 2734113,
+      "sha256": "ea35a9c06973fe0cb0d68c0417700644a394cdc8bdef549d285cadc50beee7e6",
+      "metadata_lfs_sha256": null,
+      "lfs_sha256_match": null,
+      "metadata_size": 2734113,
+      "metadata_blob_id": "3f33fa1b09ff44ce7930f7fe2246aa2dd6f9a891",
+      "computed_git_blob_sha1": "3f33fa1b09ff44ce7930f7fe2246aa2dd6f9a891",
+      "metadata_git_blob_sha1_match": true
+    }
+  ],
+  "verified_complete_at_utc": "2026-10-30T07:55:12.306193+00:00",
+  "all_files_match_immutable_HF_content_identity": true
+}

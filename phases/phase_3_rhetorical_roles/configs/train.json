@@ -1,0 +1,60 @@
+{
+  "phase": 3,
+  "solution": 2,
+  "name": "context-16",
+  "data_cache": "data/prepared/sentence-cache.json",
+  "foundation_manifest": "../../assets/foundation/manifest.json",
+  "foundation_family": "s5_hybrid",
+  "adaptation": {
+    "method": "rs_lora",
+    "rank": 16,
+    "alpha": 4.0
+  },
+  "head": {
+    "hidden_size": 256,
+    "dropout": 0.1
+  },
+  "input": {
+    "max_length": 256,
+    "truncation": "first_127_last_127_content_tokens"
+  },
+  "context": {
+    "mode": "local",
+    "core_sentences": 32,
+    "halo_sentences": 16
+  },
+  "prototype": {
+    "count": 8,
+    "lambda": 0.0
+  },
+  "loss": {
+    "class_weight_power": 0.5,
+    "class_weight_cap": 4.0
+  },
+  "training": {
+    "seed": 42,
+    "world_size": 1,
+    "micro_windows": 1,
+    "effective_windows": 4,
+    "max_epochs": 60,
+    "min_epochs": 10,
+    "patience": 12,
+    "adapter_lr": 0.0002,
+    "head_lr": 0.0003,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.06,
+    "minimum_lr_ratio": 0.1,
+    "gradient_clip": 1.0,
+    "gradient_checkpointing": false,
+    "eval_windows": 2,
+    "save_every_steps": 100,
+    "log_every_steps": 10
+  },
+  "data_policy": {
+    "training": "CL_train_and_IT_train_only",
+    "development": "selection_and_evaluation_only",
+    "test": "unlabelled_inference_only",
+    "external_weights_or_data": false
+  },
+  "output_dir": "artifacts/context-16"
+}

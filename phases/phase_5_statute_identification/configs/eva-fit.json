@@ -1,0 +1,11 @@
+{
+  "rank": 16,
+  "alpha": 16,
+  "rho": 2,
+  "tau": 0.99,
+  "min_batches": 4,
+  "max_batches": 256,
+  "seed": 42,
+  "micro_chunks": 2,
+  "sampling": "case_uniform_seeded_permutation_one_complete_hash_selected_chunk"
+}

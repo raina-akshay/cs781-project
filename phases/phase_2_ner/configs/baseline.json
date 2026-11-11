@@ -1,0 +1,68 @@
+{
+  "foundation_manifest": "../../assets/foundation/manifest.json",
+  "cache_path": "data/cache.pkl",
+  "output_dir": "artifacts/run",
+  "method": "lorma_plus",
+  "head": {
+    "projection_width": 256,
+    "character_embedding_width": 32,
+    "bidirectional_lstm_hidden_per_direction": 128,
+    "num_bio_labels": 25,
+    "dropout": 0.1,
+    "character_padding_id": 0
+  },
+  "training": {
+    "seed": 42,
+    "world_size": 1,
+    "micro_batch_per_gpu": 16,
+    "gradient_accumulation_steps": 3,
+    "backbone_lr": 0.0002,
+    "head_lr": 0.0003,
+    "weight_decay": 0.01,
+    "gradient_clip": 1.0,
+    "warmup_fraction": 0.1,
+    "max_epochs": 40,
+    "patience": 12,
+    "min_epochs": 10,
+    "gradient_checkpointing": false,
+    "eval_batch_per_gpu": 12,
+    "save_every_steps": 50,
+    "log_every_steps": 5
+  },
+  "adaptation": {
+    "rank": 16,
+    "alpha": 16.0,
+    "seed": 42
+  },
+  "loss": {
+    "type": "cross_entropy"
+  },
+  "boundary_loss": {
+    "lambda": 0.1,
+    "max_pos_weight": 16.0
+  },
+  "prediction_policy": "leading_whitespace_only",
+  "role_loss": {
+    "lambda": 0.1
+  },
+  "ranking_loss": {
+    "lambda": 0.05,
+    "offsets": [
+      -2,
+      -1,
+      1,
+      2
+    ]
+  },
+  "foundation_family": "s5_hybrid",
+  "span_loss": {
+    "lambda": 0.1,
+    "offsets": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ]
+  }
+}

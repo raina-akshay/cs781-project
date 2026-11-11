@@ -1,0 +1,49 @@
+{
+  "model": {
+    "architecture": "gated_delta_hybrid",
+    "vocab_size": 32768,
+    "context_length": 2560,
+    "n_layers": 12,
+    "d_model": 1024,
+    "n_heads": 16,
+    "d_ff": 2816,
+    "dropout": 0.1,
+    "layer_norm_eps": 1e-05,
+    "gdn_num_heads": 8,
+    "gdn_head_dim": 128,
+    "gdn_value_dim": 256,
+    "conv_size": 4,
+    "rope_theta": 10000.0,
+    "gdn_backend": "fla"
+  },
+  "training": {
+    "seed": 42,
+    "max_tokens": 1050000000,
+    "tokens_per_update": 32768,
+    "micro_batch_size": 2,
+    "learning_rate": 0.0003,
+    "min_lr_ratio": 0.1,
+    "warmup_fraction": 0.02,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "adam_epsilon": 1e-08,
+    "weight_decay": 0.1,
+    "grad_clip": 1.0,
+    "precision": "bf16",
+    "gradient_checkpointing": false,
+    "trim_padding": true,
+    "eval_every_steps": 250,
+    "eval_max_tokens": 2000000,
+    "save_every_steps": 250,
+    "save_every_minutes": 30.0,
+    "log_every_steps": 10,
+    "checkpoint_tokens": [
+      200000000,
+      400000000,
+      700000000,
+      1050000000
+    ]
+  }
+}

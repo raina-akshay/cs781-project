@@ -1,0 +1,10 @@
+{
+  "phase": 3,
+  "selected_epoch": 17,
+  "original_checkpoint_sha256": "172c7a2135ab2835fcd2a22f27e9a84260d651072edc4bb8c30b2ca217bc9af4",
+  "compact_checkpoint_sha256": "a7bc6cf0b9cd5d937c895c1efd495e027c34cc5946822ba458d2176bbfd0534b",
+  "compact_bytes": 20084625,
+  "tensor_count": 172,
+  "exact_tensor_parity": true,
+  "optimizer_and_rng_excluded": true
+}

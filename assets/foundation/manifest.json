@@ -1,0 +1,50 @@
+{
+  "foundation": "phase-1-solution-5",
+  "parameter_count": 213084768,
+  "model_config": {
+    "architecture": "gated_delta_hybrid",
+    "vocab_size": 32768,
+    "context_length": 2560,
+    "n_layers": 12,
+    "d_model": 1024,
+    "n_heads": 16,
+    "d_ff": 2816,
+    "dropout": 0.1,
+    "layer_norm_eps": 1e-05,
+    "gdn_num_heads": 8,
+    "gdn_head_dim": 128,
+    "gdn_value_dim": 256,
+    "conv_size": 4,
+    "rope_theta": 10000.0,
+    "gdn_backend": "fla"
+  },
+  "source_sha256": {
+    "legal_lm/__init__.py": "7fe5c8468855c91792c36309f72205096f41039e66660c80e773a60b19dc0f24",
+    "legal_lm/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "legal_lm/cli.py": "5873dcee582cf1395bb0e38ef371ea3743aedc7c94e42505862e94d6635a2c78",
+    "legal_lm/config.py": "238b999e8a7fe158405987ebb3e169b19337e98580845acc617746c16e24e006",
+    "legal_lm/data.py": "3da617bb86d8e560f116344eda81859f2d67c84c68520cd9f0303e26a905356a",
+    "legal_lm/evaluation.py": "dbc3e176b9be2bc15ebd9bb89c1c5a39181d1f66c762b84d8db386f0d395759f",
+    "legal_lm/gated_delta.py": "3b25a3a30b22644262fe05daa0382b508cea22b00bc8f07ac0067649106f38e3",
+    "legal_lm/generation.py": "73f19e5b84cb85aaeebe518928baf0dc8c1e8efa8c586783d89b12875178cb12",
+    "legal_lm/io.py": "ef79cf6a1655e4a6748de1911243afeea51af355dca359d5280b1f7ed1383951",
+    "legal_lm/model.py": "eb31b3d6e82277cf9b9765837257d1a5416b751e655deac9096aa6b970a42e03",
+    "legal_lm/stage3_data.py": "a59e9c49f377aec48955520200ff45ee6635eed8418b8c0b886df5cd42b91725",
+    "legal_lm/stage5_train.py": "c1ee43cbe0ae18767997478d6dd30a6fde0bf06614d55c182dc4253f03cf4965",
+    "legal_lm/tokenization.py": "176b785ee9cbc595ef035504626457321a0a352a526e21a62f5689a97b98c3cc",
+    "legal_lm/train.py": "3f7fc65c1f718c98a583eadcbb7eeb37ea60aa9ece29d181d8049b7aa4cfc3d1"
+  },
+  "tokenizer_sha256": "25cb054b95fb14d53f12f265c4e09c897ba6dfc5d84b8298ab93004184648b1d",
+  "training_state": {
+    "steps": 30085,
+    "supervised_targets": 1050000000
+  },
+  "format": "cs781-foundation-v1",
+  "checkpoint": "model.pt",
+  "checkpoint_sha256": "7600bd7396f662c5349102f15a2fe04c30673f1a2870aa8a4c6370ffd4dc222d",
+  "checkpoint_bytes": 852385235,
+  "original_checkpoint_sha256": "b2673ec82b422ba4573d1d30edb125ad2968e0a259c176b5fc8415b1f0797360",
+  "tokenizer_path": "tokenizer.json",
+  "source_root": "../../phases/phase_1_pretraining",
+  "fla_source_commit": "3e52d5abb6ad85312846f39c3e946c2e9881a823"
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/Exploration-Lab/LoRMA",
+  "commit": "ffb3c1de29a7f2ab880dc504a2e473b5a4b63292",
+  "paper": "https://aclanthology.org/2025.findings-acl.527/",
+  "license_declaration": "CC-BY-NC-4.0 in original README; no root LICENSE file",
+  "source_relative_path": "NLU/run_glue_lorma_plus.py",
+  "source_sha256": "e1199249cad6da6dee4b89f119f7ba0a8a09a4c54e1882e4861f0f21e8365dd9",
+  "class": "LormaLinear_plus",
+  "selected_arguments": {"mode": "pre", "do_rri": true, "lorma_dropout": 0.0},
+  "production_evaluation": "Algebraically equivalent factorized activation evaluation; original bias unchanged; exact mathematical formula, finite-precision association can differ",
+  "copied_pretrained_weights_or_external_task_data": false
+}

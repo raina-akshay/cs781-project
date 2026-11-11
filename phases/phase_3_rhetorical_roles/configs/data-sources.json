@@ -1,0 +1,49 @@
+{
+  "repository": "Exploration-Lab/CS-781-Capstone",
+  "repo_type": "dataset",
+  "revision": "89edba6a44d6bb9593fd13b6895b5cd3b06eb82e",
+  "files": [
+    {
+      "path": "Phase_3_RR/Train/CL_train.json",
+      "size_bytes": 2460243,
+      "sha256": "2fdad020443ad33734a8c3a59f4fbae72582e0535692708ad902473087333ed1",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/89edba6a44d6bb9593fd13b6895b5cd3b06eb82e/Phase_3_RR/Train/CL_train.json"
+    },
+    {
+      "path": "Phase_3_RR/Train/CL_dev.json",
+      "size_bytes": 336269,
+      "sha256": "95ec2dac8b4c869f9fd1ae434546103b93d9c0a5340b2e5a7e611773519dbbcc",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/89edba6a44d6bb9593fd13b6895b5cd3b06eb82e/Phase_3_RR/Train/CL_dev.json"
+    },
+    {
+      "path": "Phase_3_RR/Test/CL_test.json",
+      "size_bytes": 280607,
+      "sha256": "33547ab29f5ae9afda36d92d779aa955676ae1d31df0ca479f09abfeeb48f248",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/89edba6a44d6bb9593fd13b6895b5cd3b06eb82e/Phase_3_RR/Test/CL_test.json"
+    },
+    {
+      "path": "Phase_3_RR/Train/IT_train.json",
+      "size_bytes": 1509371,
+      "sha256": "a9111869c768c1adfb492ba03df72b14d77fcce9f468a2a167ccf9d29a3b010b",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/89edba6a44d6bb9593fd13b6895b5cd3b06eb82e/Phase_3_RR/Train/IT_train.json"
+    },
+    {
+      "path": "Phase_3_RR/Train/IT_dev.json",
+      "size_bytes": 165422,
+      "sha256": "825e158bfcb46c1001dc0062d43bdd8f4060c5214ec465aedd2c58d28da1b20a",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/89edba6a44d6bb9593fd13b6895b5cd3b06eb82e/Phase_3_RR/Train/IT_dev.json"
+    },
+    {
+      "path": "Phase_3_RR/Test/IT_test.json",
+      "size_bytes": 194391,
+      "sha256": "3117dbe4a909bdec4628c200ed8ed2617a651d633296b41977b00f8b556dbc81",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/89edba6a44d6bb9593fd13b6895b5cd3b06eb82e/Phase_3_RR/Test/IT_test.json"
+    },
+    {
+      "path": "Phase_3_RR/Train/label_vocab.json",
+      "size_bytes": 340,
+      "sha256": "d4d0175f792a5349ccc028ef3a1d220374169e999550441e84378dcf39e9ae45",
+      "url": "https://huggingface.co/datasets/Exploration-Lab/CS-781-Capstone/resolve/89edba6a44d6bb9593fd13b6895b5cd3b06eb82e/Phase_3_RR/Train/label_vocab.json"
+    }
+  ]
+}

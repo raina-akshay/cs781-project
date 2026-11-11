@@ -1,0 +1,44 @@
+{
+  "adaptation": {
+    "alpha": 16,
+    "method": "lorma_plus",
+    "rank": 16
+  },
+  "data_manifest": "data/prepared/manifest.json",
+  "foundation_family": "s5_hybrid",
+  "foundation_manifest": "../../assets/foundation/manifest.json",
+  "generation": {
+    "max_new_tokens": 6144,
+    "no_repeat_ngram": 8
+  },
+  "metric_snapshot": "assets/roberta-large",
+  "phase": 6,
+  "sequence": {
+    "block_tokens": 512,
+    "context_tokens": 2560,
+    "header_tokens": 128,
+    "history_tokens": 384,
+    "source_tokens": 1536
+  },
+  "solution": 1,
+  "training": {
+    "block_gradient_checkpointing": true,
+    "canonical_backward_batches": 3,
+    "ce_chunk_tokens": 128,
+    "eval_batch_cases": 24,
+    "global_batch_cases": 24,
+    "gradient_clip": 1.0,
+    "learning_rate": 0.0002,
+    "log_every_steps": 10,
+    "max_epochs": 20,
+    "micro_segments": 16,
+    "min_epochs": 6,
+    "minimum_lr_ratio": 0.1,
+    "patience": 4,
+    "save_every_steps": 100,
+    "seed": 42,
+    "warmup_fraction": 0.05,
+    "weight_decay": 0.01,
+    "world_size": 3
+  }
+}
